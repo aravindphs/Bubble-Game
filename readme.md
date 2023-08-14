@@ -28,7 +28,7 @@ To play the Bubble Game, you don't need to install anything. Simply access the g
 
 ## 4. Usage <a name="usage"></a>
 
-1. Access the Bubble Game using the provided live URL: [Bubble Game](https://yourusername.github.io/repositoryname/)
+1. Access the Bubble Game using the provided live URL: [Bubble Game](https://joeljoboy.github.io/Bubble-Game/)
 2. The game starts with a random "hit" value displayed.
 3. Click on the bubbles with numbers matching the "hit" value to increase your score.
 4. The timer counts down from 60 seconds. Score as many points as possible within this time.
