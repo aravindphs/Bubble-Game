@@ -62,11 +62,18 @@ html,body
 #pbottom
 {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 10px;
     width: 100%;
     height: calc(100%-100px);
     padding: 20px;
+}
+#pbottom h1
+{
+    position: absolute;
+    top: 50%;
 }
 .bubble
 {
