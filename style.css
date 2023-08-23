@@ -99,13 +99,12 @@ html,body
 /* For screens smaller than 768px */
 @media (max-width: 768px) {
     #ptop {
-        flex-direction: column;
-        align-items: center;
+        justify-content: center;
         padding: 20px;
     }
 
     .elem {
-        margin-bottom: 20px;
+        margin: 0 10px; /* Add space between elements */
     }
 }
 
@@ -130,4 +129,5 @@ html,body
         padding: 5px 10px;
     }
 }
+
 
