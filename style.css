@@ -92,3 +92,37 @@ html,body
     background-color: rgb(27, 104, 27);
     cursor: pointer;
 }
+
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+    #ptop {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .elem {
+        margin-bottom: 20px;
+    }
+}
+
+/* For screens smaller than 480px */
+@media (max-width: 480px) {
+    #ptop {
+        padding: 10px;
+    }
+
+    .elem h2 {
+        font-size: 18px;
+    }
+
+    .box {
+        font-size: 16px;
+    }
+
+    .bubble {
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+    }
+}
