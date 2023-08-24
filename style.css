@@ -94,23 +94,35 @@ html,body
 }
 
 
+
 /* Media queries for responsiveness */
 
 /* For screens smaller than 768px */
 @media (max-width: 768px) {
     #ptop {
         justify-content: center;
+
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+    #ptop {
+        flex-direction: column;
+        align-items: center;
         padding: 20px;
     }
 
     .elem {
+
         margin: 0 10px; /* Add space between elements */
+
+        margin-bottom: 20px;
+
     }
 }
 
 /* For screens smaller than 480px */
 @media (max-width: 480px) {
     #ptop {
+
         flex-direction: column;
         align-items: center;
         padding: 10px;
@@ -120,14 +132,28 @@ html,body
         margin-bottom: 10px;
     }
 
+        padding: 10px;
+    }
+
+
     .elem h2 {
         font-size: 18px;
     }
 
     .box {
         font-size: 16px;
+
         padding: 5px 10px;
     }
 }
 
+
+    }
+
+    .bubble {
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+    }
+}
 
